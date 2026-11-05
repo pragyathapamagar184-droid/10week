@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pragya Thapa Magar - Personal Profile</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="#">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Pragya Thapa Magar's Portfolio</h1>
+    <p>Personal Profile Page with Flexbox Layout</p>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav class="nav-menu" aria-label="Main navigation">
+    <a href="#about">About Me</a>
+    <a href="#profile">Profile</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <!-- Content Wrapper Layout -->
+    <div class="content-wrapper">
+      
+      <section class="card" id="about">
+        <h2>Introduction</h2>
+        <p>Hello! I am Pragya Thapa Magar,I am from Nepal and I am building my personal portfolio with HTML and CSS.</p>
+        <p>Press F12 to inspect the cards and their spacing in the Computed panel.</p>
+      </section>
+
+      <section class="card" id="profile">
+        <h2>My Profile</h2>
+        <img src="profile.jpg" alt="Pragya Thapa Magar profile photo" class="profile-img">
+        <p><strong>Name:</strong> Pragya Thapa Magar</p>
+        <p><strong>Email:</strong> <a href="mailto:pragyathapamagar184@gmail.com">pragyathapamagar184@gmail.com</a></p>
+        <p>I am practicing coding day by day and working as a web programmer passionate about building modern, responsive websites.</p>
+      </section>
+
+    </div>
+
+    <section id="contact">
+      <h2>Leave a Message</h2>
+      <form>
+        <label for="visitor-name">Name</label>
+        <input id="visitor-name" type="text" placeholder="Your name">
+        <label for="visitor-email">Email</label>
+        <input id="visitor-email" type="email" placeholder="Your email">
+        <label for="visitor-message">Message</label>
+        <textarea id="visitor-message" rows="5" placeholder="Your message"></textarea>
+        <button type="button">Send Message (Layout Demo)</button>
+      </form>
+      <p>This form demonstrates HTML layout; it does not send messages.</p>
+    </section>
+  </main>
+  
+  <footer><p>&copy; 2026 Pragya Thapa Magar | My cumulative web portfolio</p></footer>
+
+  <p><a href="flexbox-simulator.html">Open the supplementary Flexbox simulator</a></p>
+  <script src="script.js"></script>
+</body>
+</html>
